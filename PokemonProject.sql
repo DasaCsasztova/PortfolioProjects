@@ -34,12 +34,6 @@ SELECT Name,[Type 1], [Type 2]
 FROM PortfolioProject..Pokemon
 WHERE [Type 2] is not Null
 
--- Dual Type Pokemon
-
-SELECT Name,[Type 1], [Type 2]
-FROM PortfolioProject..Pokemon
-WHERE [Type 2] is not Null
-
 -- Number of Legendary Pokemon including Mega Evolutions
 
 SELECT Legendary, COUNT (Legendary) as LegendaryNum
